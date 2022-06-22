@@ -13,6 +13,7 @@ public class Application {
 	public void verifyInvalidLogin() throws IOException {
 		String[][] data = GenericMethods.getData("C:\\ExcelTestData\\New Spreadsheet 1.xlsx", "Sheet2");
 		Methods mtd = new Methods();
+		//Making changes to application class
 		for(int i = 1; i<data.length;i++) {
 			switch(data[i][3]) {
 			case "navigateToApp":
